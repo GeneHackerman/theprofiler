@@ -4,53 +4,74 @@
     box-sizing: border-box;
 }
 
+body {
+  color: #191970;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* still detailing alignment to fight image */
 header {
     padding: 20px 35px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    background-image: url("../images/codescreen.jpg");
+    height: 260px;
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    z-index: 9999;
+    color: #191970;
+    width: 100%;
 }
 
 header h1 {
     font-weight: bold;
-    font-size: 50px;
-    margin: 1px 0 1px -10px;
+    font-size: 40px;
+    margin: 0 0 1px 0;
+    color: #ff8c00; 
 }
 
-header ul {
+header nav ul li {
     display: flex;
-    justify-content: space-evenly;
-    margin: -10px 0 45px 600px; 
-    color: red;   
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto 0 auto 100px; 
+    color: #ff8c00;  
 }
+
 
 /* nav header links to below articles */
-header nav ul li {
-    display: inline;
-    font-size: 25px;
+header ul {
+    margin: 30px; 
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
 }
 
 .text1, .text2, .text3, .text4 {
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
     line-height: 2;
-    background-color: aqua;
-    width: 30%;
-    padding: 10px;
+    background-color: #00bfff;
+    width: 60%;
+    padding: 20px;
     font-size: 20px;
-    border: 10px solid yellow; 
-}
-
-.sourcecode {
-    background-image: url("../images/sourcecode.jpg");
-    height: 140px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
+    border: 3px solid yellow; 
 }
 
 footer {
-    background-color: aqua;
+    background-color: #00bfff;
     width: 100%;
     padding: 50px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+/* add images to each container */
+.container1, .container2, .container3, .container4 {
+    margin: auto;
+    padding: auto;
 }
