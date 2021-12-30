@@ -30,6 +30,7 @@ header h1 a {
     color: #0097e6; 
     padding: auto;
     text-decoration: none;
+    text-shadow: 0 0 10px;
 }
 
 header nav ul li a {
