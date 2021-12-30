@@ -15,13 +15,12 @@ header {
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    position: sticky;
+    position: sticky;   
     background-image: url("../images/codescreen.jpg");
     height: 300px;
     background-size: cover;
     background-position: 100%;
     background-attachment: fixed;    
-    color: #191970;
     width: 100%;
 }
 
@@ -40,8 +39,19 @@ header nav ul li a {
     margin: 100px 80px -30px 50px; 
     color: #0097e6; 
     text-decoration: none; 
+    text-shadow: 0 0 10px;
+    padding: 5px 5px; 
 }
 
+/* button hover */
+header nav ul li a:hover {
+    background: #0097e6;
+    color: #2c3e50;
+    border-radius: 8px;
+    text-shadow: none;
+}
+
+/* button hover end */
 
 /* nav header links to below articles */
 header ul {
@@ -82,6 +92,9 @@ footer {
     padding: 50px 35px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
+    border-top: 4px solid #000080;
 }
 
+
+/* Media Query start */
