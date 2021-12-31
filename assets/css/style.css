@@ -15,11 +15,11 @@ header {
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    position: -webkit-sticky;
     position: sticky;   
     background-image: url("../images/codescreen.jpg");
     height: 300px;
     background-size: cover;
-    background-position: 100%;
     background-attachment: fixed;    
     width: 100%;
 }
@@ -35,9 +35,8 @@ header h1 a {
 
 header nav ul li a {
     display: flex;
-    justify-content:flex-end;
     flex-wrap: wrap;
-    margin: 100px 80px -30px 50px; 
+    margin: 50px 80px -30px 50px; 
     color: #0097e6; 
     text-decoration: none; 
     text-shadow: 0 0 10px;
@@ -68,7 +67,7 @@ header ul {
     flex-wrap: wrap;
     line-height: 2;
     background-color: #00bfff;
-    width: 60%;
+    width: 50%;
     padding: 10px;
     margin: 10px;
     font-size: 20px;
@@ -99,6 +98,7 @@ footer {
 
 
 /* Media Query start */
+/* media query for desktop and laptop monitor */
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
@@ -126,3 +126,13 @@ footer {
         width: 100%;
     }
 }
+
+
+/* media query for tablets */
+@media screen and (max-width: 768px) {
+    
+}
+        
+
+/* media query for phones and smaller */
+@media screen and (max-width: 575px) {}
