@@ -36,7 +36,7 @@ header h1 a {
 header nav ul li a {
     display: flex;
     flex-wrap: wrap;
-    margin: 50px 80px -30px 50px; 
+    margin: 50px 100px -30px 100px; 
     color: #0097e6; 
     text-decoration: none; 
     text-shadow: 0 0 10px;
@@ -74,6 +74,18 @@ header ul {
     border: 3px solid #000080; 
     border-radius: 15px;
 }
+
+/* adjusting image for container4 */
+.image {
+    padding: 70px;
+    margin: 70px;
+}
+
+.image2 {
+    margin: auto;
+    padding: auto;
+}
+
 
 /* adjusting width on text to fit container */
 .text1 p {
