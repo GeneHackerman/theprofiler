@@ -78,25 +78,21 @@ header ul {
 /* adjusting image for container4 */
 .image {
     padding: 70px;
-    margin: 70px;
-}
-
-.image2 {
-    margin: auto;
-    padding: auto;
+    margin: 30px;
 }
 
 
 /* adjusting width on text to fit container */
 .text1 p {
-    width: 80%;
+    width: 100%;
 }
 
 /* add images to each container */
-.container1, .container2, .container3, .container4 {
+.container1, .container2, .container3, .container4 {    
     margin: auto;
     padding: auto;
 }
+
 
 footer {
     background-color: #00bfff;
