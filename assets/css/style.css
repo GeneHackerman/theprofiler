@@ -78,7 +78,8 @@ header ul {
 /* adjusting image for container4 */
 .image {
     padding: 70px;
-    margin: 30px;
+    margin: -60px 0 -70px auto;
+    margin-left: -40px;
 }
 
 
