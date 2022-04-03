@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55.627mm" height="21.458mm" version="1.1" viewBox="0 0 197.10412 76.03077" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-604.31 -414.35)">
+  <g transform="matrix(.53759 0 0 .53759 31.041 209.85)">
+   <rect x="1127.5" y="380.4" width="17.5" height="141.43"/>
+   <rect x="1105" y="395.04" width="17.5" height="112.14"/>
+   <rect x="1082.4" y="409.5" width="17.5" height="83.214"/>
+   <rect x="1066.4" y="443.43" width="11.429" height="15.357"/>
+   <rect x="1150" y="443.43" width="199.29" height="15.357"/>
+   <rect transform="scale(-1,1)" x="-1371.9" y="380.4" width="17.5" height="141.43"/>
+   <rect transform="scale(-1,1)" x="-1394.4" y="395.04" width="17.5" height="112.14"/>
+   <rect transform="scale(-1,1)" x="-1416.9" y="409.5" width="17.5" height="83.214"/>
+   <rect transform="scale(-1,1)" x="-1433" y="443.43" width="11.429" height="15.357"/>
+  </g>
+ </g>
+</svg>
