@@ -83,6 +83,12 @@ header ul {
     margin-left: -40px;
 }
 
+.resume {
+    padding: 70px;
+    margin: -255px 0 -60px auto;
+    margin-left: 150px;
+}
+
 
 /* adjusting width on text to fit container */
 .text1 p {
